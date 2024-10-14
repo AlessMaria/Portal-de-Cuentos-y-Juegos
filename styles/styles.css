@@ -1,0 +1,209 @@
+body {
+    background-image: url('../img/fondito.png');
+    background-size: cover; 
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: none;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+h1 {
+    color:darkgreen;
+}
+
+header img {
+    margin-right: 5%;
+}
+
+.index {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color:darkgreen;
+}
+
+a:link {
+    color:darkgreen;
+}
+
+a:visited {
+    color:rgb(92, 39, 236);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; /* Alinea los elementos a la derecha */
+    align-items: center;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.grid_container{
+    padding-left: 15%;
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 30px;
+    grid-template-rows: 120px 1fr 1fr;
+    gap: 8px;
+    align-content: center;
+    padding-bottom: 20%;
+    color:darkgreen;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cuentos img {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 200px;
+    height: 210px;
+    margin-top: 8px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.juegos img {
+    padding-left: 20px;
+    padding-right: 30px;
+    width: 200px;
+    height: 210px;
+    margin-top: 8px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+
+h5 {
+    text-align: center;
+    color:darkgreen;
+}
+
+h2 {
+    text-align: center;
+    color:darkgreen;
+}
+
+.grid-container {
+    padding-left: 45%;
+    padding-right: 45%;
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.amigos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+    
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=reset] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+    
+input[type=reset]:hover {
+    background-color: #45a049;
+}
+    
+.form-container {
+    width: 50%; 
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.inicia {
+    padding-left: 40%;
+    padding-right: 30%;
+}
