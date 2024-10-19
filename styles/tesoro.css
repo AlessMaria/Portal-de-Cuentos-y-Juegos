@@ -1,0 +1,51 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url("../img/fondito.png");
+    background-size: cover;
+}
+
+#board {                
+    width: 540px;               
+    height: 540px;
+    margin: 0 auto;        
+    display: flex;
+    flex-wrap: wrap;
+
+/* justify-content: center;
+    align-items: center;*/
+    
+    background: url("../img/soil.png");    
+    background-size: cover;      
+    border: 3px solid rgb(12, 0, 0);   
+    border-radius: 25px;          
+}
+
+#board div {                      
+    width: 180px;                 
+    height: 180px;               
+    background-image: url("../img/isla.png");
+    background-size:cover;
+    border-radius: 25px;
+
+    /*justify-content: center;
+    align-items: center;*/
+    
+}
+
+#board div img {
+    width: 60px; 
+    height: 60px;
+    border: 3px solid rgb(12, 0, 0);   
+    border-radius: 25px;
+
+    /*text-align: center;
+    justify-content: center;
+    align-items: center;*/
+    
+    user-select: none;          
+    -moz-usar-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
