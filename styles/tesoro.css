@@ -43,11 +43,12 @@ body {
     justify-content: center;
     align-items: center;*/
     
+    -ms-user-select: none;
     user-select: none;          
     -moz-usar-select: none;
     -webkit-user-drag: none;
     -webkit-user-select: none;
-    -ms-user-select: none;
+    
 }
 
 header {
