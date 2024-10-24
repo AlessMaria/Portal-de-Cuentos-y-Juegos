@@ -1,7 +1,7 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
-    background: url("../img/fondito.png");
+    background: url("../img/fonditeso.png");
     background-size: cover;
 }
 
@@ -43,9 +43,70 @@ body {
     justify-content: center;
     align-items: center;*/
     
+    -ms-user-select: none;
     user-select: none;          
     -moz-usar-select: none;
     -webkit-user-drag: none;
     -webkit-user-select: none;
-    -ms-user-select: none;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-bottom: none;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+h1 {
+    color:darkgreen;
+}
+
+header img {
+    margin-right: 5%;
+}
+
+.index {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color:darkgreen;
+}
+
+a:link {
+    color:darkgreen;
+}
+
+a:visited {
+    color:rgb(92, 39, 236);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; /* Alinea los elementos a la derecha */
+    align-items: center;
+    padding-right: 10%;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
 }
