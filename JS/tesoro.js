@@ -18,9 +18,9 @@ function setGame() {
         document.getElementById("board").appendChild(tile);
     }
 
-    setInterval(setPirata2, 1000); 
+    setInterval(setPirata2, 1000); //tiempo en aparecer las imágenes
 
-    setInterval(setTesoro2, 2000);
+    setInterval(setTesoro2, 1000);
     
     setInterval(setHuesito, 1000);
 
@@ -42,7 +42,7 @@ function setPirata2() {
     }
 
     let pirata2 = document.createElement("img"); 
-    pirata2.src = "../img/pirata2.png";
+    pirata2.src = "./img/pirata2.png";
 
 
     let num = getRandomTile();
@@ -67,7 +67,7 @@ function setHuesito() {
     }
 
     let huesito = document.createElement("img"); 
-    huesito.src = "../img/huesito.png";
+    huesito.src = "./img/huesito.png";
 
 
     let num = getRandomTile();
@@ -95,7 +95,7 @@ function setTesoro2() {
     }
 
     let tesoro2 = document.createElement("img");
-    tesoro2.src = "../img/Tesoro2.png";
+    tesoro2.src = "./img/Tesoro2.png";
 
     let num = getRandomTile();
     if(currPirata2Tile && currPirata2Tile.id == num) {
