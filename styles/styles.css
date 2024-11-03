@@ -1,7 +1,7 @@
 body {
     background-image: url('../img/fondito.png');
     background-size: cover; 
-    font-family: 'Roboto', sans-serif;
+    font-family: "DynaPuff", system-ui;
 }
 
 header {
@@ -44,6 +44,7 @@ nav {
     align-items: center;
     padding-right: 10%;
     padding-bottom: 5%;
+    font-family: "DynaPuff", system-ui;
     
 }
 
