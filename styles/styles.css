@@ -2,6 +2,7 @@ body {
     background-image: url('../img/fondito.png');
     background-size: cover; 
     font-family: "DynaPuff", system-ui;
+    
 }
 
 header {
@@ -78,6 +79,12 @@ nav ul li a {
     color:darkgreen;
     font-weight: bold;
     text-align: center;
+}
+
+@media (min-width: 600px) {
+        .grid_container {
+        grid-template-columns: repeat(2, 1fr);
+}
 }
 
 .cuentos img {
