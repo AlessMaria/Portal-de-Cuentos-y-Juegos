@@ -237,6 +237,7 @@ textarea {
 }
 
 .card-group { 
+    display: left;
     max-width: 70rem; 
     gap: 25px; 
     align-self: center; 
@@ -249,13 +250,35 @@ textarea {
     font-size: 10px;
 }
 
+.construct {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 20rem;
+    
+}
+
 .card {
     border-radius: 10%;
 }
 
-.card-group1 {
-    max-width: 30rem;
-    padding-left: 150px;
-    padding-bottom: 100px;
+.cyj {
     padding-top: 50px;
+    padding-left: 400px;
+    justify-content: center;
+    align-items: center;
+    color:darkgreen;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+.detalle {
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    color:darkgreen;
 }

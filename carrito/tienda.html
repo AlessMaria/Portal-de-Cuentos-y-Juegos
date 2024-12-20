@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+.
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
+        
+    <title>Tienda</title>
+</head>
+
+<body>
+    
+    <header>
+        <img class="loguito" src="../img/logo cyj.png" width="100px" height="auto" alt="Logo" style="border-radius: 50%;">
+        <h1>EL PORTAL DE CUENTOS y JUEGOS</h1>
+    </header>
+
+    <nav>
+        <ul>                
+            <li><a href="../Index.html">Inicio</a></li>
+        </ul>    
+    </nav>
+
+    <div class="botonpagar">
+    <button id="btnPagar" onclick="pagar()">Pagar</button>
+    <button id="btnLimpiar" onclick="limpiarCarrito()">Vaciar Carrito</button>
+    </div>
+
+    <main>
+
+    <table class="cyj">
+
+        <tbody>
+
+        <tr>
+            <th>Cuento</th>
+            <th>Colaboración</th>
+            <th>Agregar</th>
+        </tr>
+
+        <tr>
+            <td>Una Historia de Piratas</td>
+            <td>40.000$</td>
+            <td><button id="btnComprar" onclick="agregarProducto('Una Historia de Piratas', 40000)">Agregar</button></td>
+        </tr>
+
+        <tr>
+            <td>Globo de Nieve</td>
+            <td>40.000$</td>
+            <td><button id="btnComprar" onclick="agregarProducto('Globo de Nieve', 40000)">Agregar</button></td>
+        </tr>
+
+        <tr>
+            <td>Los Pendergrew</td>
+            <td>40.000$</td>
+            <td><button id="btnComprar" onclick="agregarProducto('Los Pendergrew', 40000)">Agregar</button></td>
+        </tr>
+    </tbody>
+
+    </table>
+
+    <table class="cyj">
+
+        <tbody>
+
+        <tr>
+            <th>Juego</th>
+            <th>Colaboración</th>
+            <th>Agregar</th>
+        </tr>
+
+        <tr>
+            <td>Encuentra el Tesoro</td>
+            <td>30.000$</td>
+            <td><button id="btnComprar" onclick="agregarProducto('Encuentra el Tesoro', 30000)">Agregar</button></td>
+        </tr>
+
+        <tr>
+            <td>Asesinato en la Mansión Hillside</td>
+            <td>30.000$</td>
+            <td><button id="btnComprar" onclick="agregarProducto('Asesinato en la Mansión Hillside', 30000)">Agregar</button></td>
+        </tr>
+
+        <tr>
+            <td>El Crucero de la Intriga</td>
+            <td>30.000$</td>
+            <td><button id="btnComprar" onclick="agregarProducto('El Crucero de la Intriga', 30000)">Agregar</button></td>
+        </tr>
+
+    </tbody>
+
+    </table>
+
+    </main>
+
+    <div id="carrito"></div>
+
+    <footer>
+        <h5>Siguenos en:</h5>
+        
+        <div class="grid-container">
+            
+            <div class="grid-item">
+                <a href="https://x.com/"><i class="fi fi-brands-twitter"></i></a>
+            </div>
+
+            <div class="grid-item">
+                <a href="https://es-la.facebook.com/"><i class="fi fi-brands-facebook"></i></a>
+            </div>
+
+            <div class="grid-item">
+                <a href="https://www.instagram.com/"><i class="fi fi-brands-instagram"></i></a>
+            </div>
+
+            <div class="grid-item">
+                <a href="https://www.linkedin.com/"><i class="fi fi-brands-linkedin"></i></a>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="./tienda.js"> </script> 
+</body>
+
+</html>
