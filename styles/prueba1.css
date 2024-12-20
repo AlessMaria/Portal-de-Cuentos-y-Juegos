@@ -1,0 +1,102 @@
+body {
+    background-image: url('../img/fondito.png');
+    background-size: cover; 
+    font-family: "DynaPuff", system-ui;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: none;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+h1 {
+    color:darkgreen;
+}
+
+header img {
+    margin-right: 5%;
+}
+
+.index {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color:darkgreen;
+}
+
+a:link {
+    color:darkgreen;
+}
+
+a:visited {
+    color:rgb(92, 39, 236);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; /* Alinea los elementos a la derecha */
+    align-items: center;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    font-family: "DynaPuff", system-ui;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h5 {
+    text-align: center;
+    color:darkgreen;
+}
+
+h2 {
+    text-align: center;
+    color:darkgreen;
+}
+
+.grid-container {
+    padding-left: 45%;
+    padding-right: 45%;
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.card { width: 18rem; 
+} 
+
+.construct {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
